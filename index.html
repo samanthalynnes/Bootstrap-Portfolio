@@ -3,39 +3,71 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>About | Your Name</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>About | Samantha Lynnes</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body {
+            background-image: url("./images/concrete_seamless.png");
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+    </style>
 </head>
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">            
+        <a class="navbar-brand bg-info text-white font-weight-bold" href="#">Samantha Lynnes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav" style="margin-left: auto;">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>       
+    </nav>
+
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1 class="text-info font-weight-bold"> About Me</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <p>
+                                <img src="./images/cat.jpg" class="image-fluid" alt="Responsive image">
+                            </p>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
+                        </div>
+                    </div>    
+                    <div class="row">
+                        <div class="col-md-12">
+                                <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
+                        </div>    
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                                <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        </div>
+                    </div>
+                </div>   
+        </section>
+
     </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
-
-      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
-
-      <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
-
-      <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-
-    </section>
-
-  </div>
 
   <footer>
     <div class="container">
@@ -46,7 +78,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+ 
 </body>
 
 </html>
